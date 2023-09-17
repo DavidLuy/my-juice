@@ -91,14 +91,14 @@ main {
 }
 
 /* juice image */
-#juice-image {
+#juice {
     height: 600px;
     width: 100%;
     background: url("../images/juice-image.jpeg") no-repeat center center/cover;
 }
 
 #cover-text {
-    background-color: rgba(241, 109, 107, .7);
+    background-color: rgba(107, 203, 241, 0.607);
     font-size: 130%;
     position: absolute;
     bottom: 30px;
@@ -163,7 +163,7 @@ main {
         margin-top: 79px;
     }
 
-    /* Juice image */
+    /* Juice */
     #cover-text {
         width: 300px;
         right: 50px;
