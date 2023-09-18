@@ -1,5 +1,5 @@
 /* Google fonts import */
-@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap");
 
 /* Asterisk wildcard selector to override default styles added by the browser */
 * {
@@ -29,7 +29,7 @@ h3 {
 
 /* Header */
 header {
-    background-color: #f7d0d0;
+    background-color: #ffffff;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
@@ -94,17 +94,17 @@ main {
 #juice {
     height: 600px;
     width: 100%;
-    background: url("../images/juice.webp") no-repeat center center/cover;
+    background: url("../images/Fruits1.jpeg") no-repeat center center/cover;
 }
 
 #cover-text {
-    background-color: rgba(107, 203, 241, 0.607);
+    background-color: rgba(6, 145, 180, 0.607);
     font-size: 130%;
     position: absolute;
-    bottom: 30px;
+    bottom: 40px;
     width: 80%;
     min-height: 200px;
-    padding-top: 40px;
+    padding-top: 30px;
     padding-left: 10px;
 }
 
@@ -112,7 +112,6 @@ main {
 #cover-text>h3 {
     color: #ffffff;
 }
-
 
 /* Restaurant section */
 #restaurant {
@@ -142,7 +141,7 @@ main {
 }
 
 #circle-cover-bg {
-    background: url('../images/juice-image.jpeg') no-repeat top center / cover;
+    background: url("../images/Juice\ c.jpeg") no-repeat top center / cover;
     height: 90vw;
     width: 90vw;
     margin-bottom: 20px;
@@ -158,6 +157,56 @@ main {
     justify-content: center;
 }
 
+/* Juice types section */
+#types {
+    background: url("../images/juice.webp") no-repeat center/cover;
+    /* Handles responsivity without the need for a media query */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#types div {
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, .6);
+    padding: 15px;
+    text-align: center;
+    /* This will not wrap on screens of less than 400px wide.
+    Each div will expand to fill the available space on its row */
+    flex-basis: 200px;
+    flex-grow: 1;
+    /* Creates a grid of meetup time divs over the background image */
+    border: 2px solid white;
+}
+
+#types h3 {
+    /* Override the heading colour set in general styles */
+    color: #fafafa;
+}
+
+/* Gallery page */
+#photos img {
+    width: 100%;
+    line-height: 1em;
+}
+
+#photos {
+    line-height: 0;
+}
+#types div {
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 15px;
+    text-align: center;
+
+    flex-basis: 200px;
+    flex-grow: 1;
+    border: 2px solid white;
+}
+
+#types h3 {
+    color: #fafafa;
+}
+
 /* Footer */
 #social-networks {
     text-align: center;
@@ -165,8 +214,7 @@ main {
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
-    background-color: rgb(237, 156, 98);
-
+    background-color: #ffffff;
 }
 
 #social-networks i {
@@ -221,5 +269,34 @@ main {
 @media screen and (min-width: 992px) {
     #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+
+    /* Restaurant section */
+    #benefits {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #benefits>div {
+        flex: 1;
+    }
+
+    #benefits-image {
+        order: 0;
+    }
+
+    #benefits-mental {
+        order: 1;
+    }
+
+    #benefits-mental>div {
+        align-self: flex-start;
+    }
+
+    #benefits-physical>div {
+        align-self: flex-end;
     }
 }
