@@ -36,14 +36,35 @@
     </header>
 
     <!-- Main content -->
-    <main>
-        <section id=“juice”>
-            <div id="cover-text">
-                <h2>Eden Juice</h2>
-                <h3>Mango Orange Apple Strawberry</h3>
+    <section id="contact">
+        <form id="contact-form" method="POST" action="https://formdump.codeinstitute.net">
+            <h2><i class="fa-solid fa-heartbeat"></i> Let's get your order!</h2>
+            <label for="first_name">First Name</label>
+            <input type="text" name="first_name" id="first_name" class="text-input" required>
+            <br>
+            <label for="last_name">Last Name</label>
+            <input type="text" name="last_name" id="last_name" class="text-input" required>
+            <br>
+            <label for="email_address">Email Address</label>
+            <input type="email" name="email_address" id="email_address" class="text-input" required>
+            <br>
+            <div class="radio-buttons">
+                <div>
+                    <label for="type">Juice type</label>
+                    <input type="radio" name="juice_preference" id="type value="type" required checked>
+                </div>
+                <div>
+                    <label for="price">Price</label>
+                    <input type="radio" name="running_preference" id="price" value="price" required>
+                </div>
+                <div>
+                    <label for="both">Both</label>
+                    <input type="radio" name="running_preference" id="both" value="both" required>
+                </div>
             </div>
-        </section>
-    </main>
+            <button type="submit" class="join-button">My Order!</button>
+        </form>
+    </section>
 
     <!-- Footer -->
     <footer>
