@@ -29,7 +29,7 @@ h3 {
 
 /* Header */
 header {
-    background-color: #ffffff;
+    background-color: #f7d0d0;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
@@ -94,7 +94,7 @@ main {
 #juice {
     height: 600px;
     width: 100%;
-    background: url("../images/juice-image.jpeg") no-repeat center center/cover;
+    background: url("../images/juice.webp") no-repeat center center/cover;
 }
 
 #cover-text {
@@ -113,6 +113,51 @@ main {
     color: #ffffff;
 }
 
+
+/* Restaurant section */
+#restaurant {
+    width: 90%;
+    margin: 20px auto;
+}
+
+#restaurant h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 280%;
+}
+
+#benefits-diet>div,
+#benefits-mental>div {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+#benefits p {
+    padding: 0 20px;
+}
+
+#benefits hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
+}
+
+#circle-cover-bg {
+    background: url('../images/juice-image.jpeg') no-repeat top center / cover;
+    height: 90vw;
+    width: 90vw;
+    margin-bottom: 20px;
+
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#benefits-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /* Footer */
 #social-networks {
     text-align: center;
@@ -120,6 +165,8 @@ main {
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
+    background-color: rgb(237, 156, 98);
+
 }
 
 #social-networks i {
