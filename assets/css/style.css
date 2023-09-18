@@ -192,6 +192,7 @@ main {
 #photos {
     line-height: 0;
 }
+
 #types div {
     color: #fafafa;
     background-color: rgba(0, 0, 0, 0.6);
@@ -214,13 +215,26 @@ main {
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
-    background-color: #ffffff;
+    background-color: #ecbe68;
 }
 
 #social-networks i {
     font-size: 160%;
     padding: 5%;
     color: #3a3a3a;
+}
+
+/* map */
+#map-wrapper {
+
+    height: 300px;
+    margin-bottom: 55px;
+}
+
+#map {
+    height: 100%;
+    width: 100%;
+    border: none;
 }
 
 /* Media query: tablets and larger (768px and up) */
