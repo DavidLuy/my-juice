@@ -34,21 +34,21 @@ People can order juice.
 User Stories
 First-time visitor goals
 
-Understand the main purpose of the site and learn more about the Lunar Escape company.
+Understand the main purpose of the site and know more about the Eden Juice restaurant.
 Easily navigate throughout the site.
-Find the Sign Up form and fill it out.
+Find the order form and fill it out.
 Returning visitor goals
 
-Find out information about the company.
+Find out information about the restaurant.
 Locate contact information.
 Review the site's extensive gallery.
 Frequent user goals
 
-Check if there are any new packages to apply for in the sign-up form.
 Review the gallery for any new photos.
+
 Features
-This website is targeting people who want to win a trip to the moon.
-They can do that by navigating to the sign-up page and filling out a form.
+This website is targeting people who want and need fruit juice ecologically.
+They can do that by navigating to the contact page and filling out a form.
 Responsive on all device sizes.
 Existing Features
 Navigation bar
@@ -65,7 +65,6 @@ The home page is comprised of 'How the restaurant started, Types af Juice and wo
 Gallery is made up of 'Welcome to our Gallery'.
 The contact page is comprised of 'Order Form'
 order-received is comprised of 'Order Received'.
-
 
 Section one, Dreams and info
 This section contains a short heading followed by images.
