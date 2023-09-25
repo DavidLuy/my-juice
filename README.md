@@ -105,9 +105,9 @@ Primary colors used on the website: Color Scheme
 # Google fonts
 Kanit font is main font used throughout the site with Osward,sans-serif as its fallback font in case Kanit doesn't import for some reasson.
 My mentor Mitko Bachvarov
+Code institute Love running template
 
-# Code institute Love running template
-To write the code.
+# To write the code.
 Git
 for vesion control.
 Github
@@ -116,10 +116,11 @@ Google Fonts
 Import main font the website.
 Am I Responsive
 Mockup picture for the README file.
-Testing
-# The W3C Markup Validator and W3C CSS Validator services were used to validate every page of the project to ensure there were no errors.
-! [w3c css validator](https://user-images.githubusercontent.com/139966667/270313645-2a562f15-3697-46c6-9bc2-82e70b689675.png)
 
+# Testing
+![w3c css validator](https://user-images.githubusercontent.com/139966667/270313645-2a562f15-3697-46c6-9bc2-82e70b689675.png)
+
+ The W3C Markup Validator and W3C CSS Validator services were used to validate every page of the project to ensure there were no errors.
 W3C Markup Validtor
 W3C CSS Validator
 Validation results
@@ -179,7 +180,7 @@ Acknowledgements
 My mentor Mitko Bachvarov provided helpful feedback and a link to the Flexbox guide.
 Slack community for encouragement and information.
 
-NB:To remember
+# NB:To remember
 To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
 python3 -m http.server
 ``
