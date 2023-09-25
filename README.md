@@ -1,13 +1,15 @@
-Eden Juice 
+#Eden Juice 
+
 Due to high demand and need of juice in the community, one of the members in the community decided to open up a restaurant and make good juice to meet the community demands.
 
 In home page  section, there are different types of juice and days availabe with hours.There are links for social media contact and even an address and a phone number.
 
-Am I Responsive
+#Am I Responsive
 
-View My Juice (Eden Juice) live project here
+#View My Juice (Eden Juice) live project here
+![Eden Juice](https://user-images.githubusercontent.com/139966667/270313613-8071ae37-a9b4-4d68-a908-074e1820dde5.png)
 
-Table of Contents
+#Table of Contents
 User Experience (UX)
 User Stories
 Features
@@ -46,7 +48,7 @@ Frequent user goals
 
 Review the gallery for any new photos.
 
-Features
+#Features
 This website is targeting people who want and need fruit juice ecologically.
 They can do that by navigating to the contact page and filling out a form.
 Responsive on all device sizes.
@@ -76,7 +78,7 @@ Information about commercial rocket.
 Link to the Sign Up form page to apply for a lucky draw.
 How is it possible?
 
-Footer
+#Footer
 Links to the social media for Eden Juice will open in a new tab to allow easy navigation for the user.
 It is valuable to the user as it gives them an easy contact option via social media.
 Hold copyright information about the author.
@@ -94,7 +96,7 @@ The Order received page
 Order sent
 Order received
 
-Features Left to Implement
+#Features Left to Implement
 Design
 Colour Scheme
 
