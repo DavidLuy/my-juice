@@ -117,8 +117,9 @@ Import main font the website.
 Am I Responsive
 Mockup picture for the README file.
 Testing
-# The W3C Markup Validator and W3C CSS Validator services were used to validate every page of the project to ensure there were some errors.
+# The W3C Markup Validator and W3C CSS Validator services were used to validate every page of the project to ensure there were no errors.
 ! [w3c css validator](https://user-images.githubusercontent.com/139966667/270313645-2a562f15-3697-46c6-9bc2-82e70b689675.png)
+
 W3C Markup Validtor
 W3C CSS Validator
 Validation results
