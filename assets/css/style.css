@@ -431,3 +431,10 @@ a:hover {
         align-self: flex-end;
     }
 }
+
+/* For small screen sizes below 800px width */
+@media screen and (max-width: 800px) {
+    #photos {
+        column-count: 2;
+    }
+}
